@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'BearPodsTest_Example', :exclusive => true do
+  pod 'BearPodsTest', :path => '../'
+end
+
+target 'BearPodsTest_Tests', :exclusive => true do
+  pod 'BearPodsTest', :path => '../'
+
+  pod 'FBSnapshotTestCase'
+end
