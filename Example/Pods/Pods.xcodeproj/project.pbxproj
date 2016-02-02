@@ -10,6 +10,9 @@
 		0D0A628824D77E4BEAC897E87BE33F5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
 		15FBE3E714A7AD4A580299318C727235 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
 		163C6E8E5E7CEE1E0BEEB9CA0939DA3A /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 73003A0752F3CABAA497D1FD1F5E4E44 /* UIImage+Diff.m */; };
+		184787C11C60920C00A2DE5A /* UIView+BearSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 184787BF1C60920C00A2DE5A /* UIView+BearSet.h */; };
+		184787C21C60920C00A2DE5A /* UIView+BearSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 184787C01C60920C00A2DE5A /* UIView+BearSet.m */; };
+		184787C31C60920C00A2DE5A /* UIView+BearSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 184787C01C60920C00A2DE5A /* UIView+BearSet.m */; };
 		1F118728B3D74089480152A6B660EA9A /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A729E2AD854B4CEB4EF52289C017EB3B /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		28F2071FFF5C5B0E9DEB6C3FE43A30CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2393D1A899C707F79A64672C46ED238F /* UIKit.framework */; };
 		35848D70EAC9237246BDF63457729694 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2523693A8A7BA4278BFC866F16021FFF /* FBSnapshotTestCase.m */; };
@@ -77,6 +80,8 @@
 		0EE4692BF9A76DAAA67A8FF4DABD27E8 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		0F01AA0F45B0B5CC535F9884FF44262A /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		12CC4BD9C5F6D514C917D7942DF2D2F4 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		184787BF1C60920C00A2DE5A /* UIView+BearSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BearSet.h"; sourceTree = "<group>"; };
+		184787C01C60920C00A2DE5A /* UIView+BearSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BearSet.m"; sourceTree = "<group>"; };
 		1909C5B7B85E991DB4E4064F66E8D55D /* BearPodsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BearPodsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B8067CD97A2D515CDA17D66D41EEF3B /* BearPodsTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BearPodsTest-prefix.pch"; sourceTree = "<group>"; };
 		1DF86CC86DF00AC42C5F4BBF467F771B /* Pods-BearPodsTest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BearPodsTest_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -332,6 +337,8 @@
 			isa = PBXGroup;
 			children = (
 				BAB00B6B580756E4BD55900EC5C4BAF0 /* ReplaceMe.m */,
+				184787BF1C60920C00A2DE5A /* UIView+BearSet.h */,
+				184787C01C60920C00A2DE5A /* UIView+BearSet.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -374,6 +381,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184787C11C60920C00A2DE5A /* UIView+BearSet.h in Headers */,
 				C2E0E8E7157AB8CA81116EE090CC7937 /* BearPodsTest-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -553,6 +561,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184787C31C60920C00A2DE5A /* UIView+BearSet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,6 +586,7 @@
 			files = (
 				AE831485217D167DB7DFCDAEA0BC79EE /* BearPodsTest-dummy.m in Sources */,
 				368DC006E319C20B8E8D6D62E253935A /* ReplaceMe.m in Sources */,
+				184787C21C60920C00A2DE5A /* UIView+BearSet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
