@@ -1,0 +1,21 @@
+PODS:
+  - BearPodsTest (0.1.0)
+  - FBSnapshotTestCase (2.0.7):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
+  - FBSnapshotTestCase/Core (2.0.7)
+  - FBSnapshotTestCase/SwiftSupport (2.0.7):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - BearPodsTest (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  BearPodsTest:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BearPodsTest: bc97544da5e789d6b1299d4b455fb7aa830ec386
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+
+COCOAPODS: 0.39.0
